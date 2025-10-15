@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=form, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="./response.html" name="biodata" target="_blank "method="get">
+        <Fieldset>
+
+            <legend>Biodata</legend>
+
+
+            <label for="name">Name:</label>
+            <input type="text" Id="name" name="name" placeholder="Enter Your Name"required>
+            <br><br>
+
+
+            <label for="pass" id="pass"name>Password</label>
+            <input type="password" id="pass" name="pass" required>
+            <br><br>
+
+            <label for="dob">DOB:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email"id="email" name="email" required>
+            <br><br>
+
+            <label for="tel">Phone:</label>
+            <input type="tel" id="tel" name="tel" required>
+            <br><br>
+
+            <label for="add">Address:</label>
+            <textarea name="text" id="add" rows="5"></textarea>
+            <br><br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+            <br><br>
+
+            <label for="check">Vehicles you have :</label>
+            <input type="checkbox" id="check" name="vehicle1">
+            <label for="check">Car</label>
+            <input type="checkbox" id="check" name="vehicle2">
+            <label for="check">Bike</label>
+            <br><br>
+
+            <label for="select">Select your programming language</label>
+            <select name="select" id="select">
+            <option value="Select">Select your language</option>
+            <optgroup label="programming language">
+            <option value="c">C</option>
+            <option value="C++">C++</option>
+            <option value="java">Java</option>
+            </optgroup>
+            <optgroup label="frontend technologies">
+            <option value="java script">Java scrit</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            </optgroup>
+            </select>
+            <br><br>
+
+            <label for="url">URL:</label>
+            <input type="url" id="url" name="url" placeholder="Enter Your Website Address" required>
+            <br><br>
+
+            <label for="file"> File Upload</label>
+            <input type="file" id="file" name="file" required>
+            <br><br>
+
+            <label for="attempt">Attempt:</label>
+            <input type="number" id="attempt" name="attempt" min="1" max="10" required>
+            <br><br>
+
+            <label for="appoint">Appointment</label>
+            <input type="time" id="time" name="time" required>
+            <br><br>
+
+            <input type="Submit">
+            <input type="Reset">
+            <button>Go Back</button>
+
+
+        </Fieldset>
+    </form>
+</body>
+</html>
